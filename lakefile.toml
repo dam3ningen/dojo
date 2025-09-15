@@ -1,0 +1,10 @@
+name = "rofls"
+version = "0.1.0"
+defaultTargets = ["rofls"]
+
+[[lean_lib]]
+name = "Rofls"
+
+[[lean_exe]]
+name = "rofls"
+root = "Main"
